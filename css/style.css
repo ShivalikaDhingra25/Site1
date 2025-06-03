@@ -1,0 +1,216 @@
+/*body*/
+
+/*header*/
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 50pxs;
+  font-style: normal;
+}
+
+#name {
+  font-size: 80px;
+  color: rgb(177, 135, 28);
+  background-color: rgb(14, 13, 13);
+  align-content: center;
+  border: 10px solid rgb(242, 178, 17);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 80px;
+}
+
+#store {
+  background-color: goldenrod;
+  font-size: 60px;
+  border-radius: 30%;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.img {
+  border: 10px solid;
+  border-color: rgb(242, 178, 17);
+}
+
+.address {
+  margin-left: 400px;
+  color: rgb(35, 34, 34);
+  font-size: 40px;
+}
+
+#pic {
+  border: 10px solid rgb(120, 103, 12);
+}
+
+
+/*section1*/
+.photo {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  padding: 30px;
+  margin-top: 10px;
+  align-self: center;
+  margin-bottom: 0%;
+}
+
+.heading {
+  font-size: 40px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.self {
+  border: 5px solid rgb(31, 29, 29);
+  height: auto;
+  width: 200px;
+}
+
+.tag a {
+  font-size: 30px;
+  text-decoration: none;
+  margin: 20px;
+  color: goldenrod;
+  background-color: black;
+  text-align: center;
+}
+
+.tag a:hover {
+  font-size: 50px;
+  background-color: rgb(61, 59, 59);
+}
+
+.tag {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#click {
+  font-size: 30px;
+}
+
+
+/*section2*/
+.good {
+  background-color: goldenrod;
+}
+
+#excellent {
+  border: 4px dotted black;
+  margin-top: 0%;
+}
+
+/*section3*/
+.about {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+}
+
+#main {
+  font-size: 60px;
+  font-weight: 300;
+  background-color: goldenrod;
+  padding: 30px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.one {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.two {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+/*section4*/
+#date {
+  display: block;
+  font-size: 50px;
+  font-weight: 500;
+  background-color: rgb(229, 139, 30);
+  margin: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 120px;
+}
+
+/*section5*/
+.three {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 40px;
+  margin-bottom: -120px;
+}
+
+/*section6*/
+.four {
+  display: flex;
+  justify-content: space-between;
+  background-color: goldenrod;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.tag {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+/*section7*/
+.five {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.quality {
+  align-content: center;
+  margin-left: 80px;
+}
+
+#man {
+  margin-left: 100px;
+}
+
+/*section8*/
+.button {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 40px;
+}
+
+.box {
+  text-align: center;
+  border: 2px solid goldenrod;
+  padding: 10px;
+  margin: 20px;
+}
+
+/*section9*/
+#you {
+  font-size: 80px;
+  margin-bottom: -50px;
+}
+
+.call {
+  background-color: rgb(22, 22, 22);
+  color: goldenrod;
+  font-size: 50px;
+  padding: 100px;
+}
